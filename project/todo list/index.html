@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glitch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>TODO LIST</h1>
+    </div>
+    <div class="container">
+    <div class="book-container">
+    <h1 class="one">AshDrafts</h1>
+    <h5 class="two">Ashir</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, deserunt distinctio illo quasi molestias tenetur similique doloremque culpa veritatis non sed repellat harum voluptas veniam sapiente ipsam velit neque enim id. Deleniti aperiam delectus inventore enim id assumenda iste, corrupti eveniet commodi at esse, dolorum, ipsa maxime corporis possimus minus?</p>
+    
+    <button onclick="deletebook(event)">Delete</button>
+
+    </div>
+    </div> 
+    <div class="popupoverlay"></div>
+      <div class="popupbox">
+        <h2>Add Book</h2>
+        <form >
+            <input type="text" placeholder="Book Title" id="booktitleinput">
+            <input type="text" placeholder="Book Author" id="bookauthorinput">
+            <textarea placeholder="Short Description" id="bookdescriptioninput"></textarea>
+            <button id="addbook">Add</button>
+            <button id="cancelpopup">Cancel</button>
+        </form>
+      </div>
+    <button class="addbutton" id="addpopup">+</button>
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
